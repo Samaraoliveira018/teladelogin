@@ -1,0 +1,13 @@
+.container {
+    padding: 40px 32px;
+    display: flex;
+    gap: 24px;
+    flex-direction:row;
+    justify-content: space-between;
+
+    @media (min-width: 768px) {
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+        "login"
+    }
+}
